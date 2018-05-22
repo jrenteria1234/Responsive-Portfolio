@@ -219,3 +219,55 @@ input[type=submit] {
     border: 0 none;
 
 }
+
+/* media queries */
+
+@media screen and (min-width: 0px)and (max-width: 640px) {
+
+    #logo {
+        width: 100%;
+        margin: auto;
+    }
+
+    #main-container {
+        width: 90%; 
+        margin: auto;
+    }
+
+    .main-section {
+        margin-top: 50px;
+    }
+
+    nav {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    
+    .work {
+        position: relative; 
+        float: left;
+        width: 220px;
+        margin: 20px 0 25px;
+        overflow: auto;
+    }
+    
+    .auth-image {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 641px)and (max-width: 980px) {
+
+    #main-container {
+        width: 90%;
+    }
+
+    nav {
+        padding-right: 50px;
+    }
+}
+
+
+
